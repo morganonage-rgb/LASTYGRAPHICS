@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MR G GRAPHICS</title>
+    <style>
+      /* Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+        color: white;
+        text-align: center;
+        line-height: 1.6;
+      }
+
+      /* Hero Section */
+      .hero {
+        padding: 80px 20px;
+        background: url("pubg-bg.jpg") no-repeat center/cover;
+        background-attachment: fixed;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #ffd700;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+      }
+
+      .tagline {
+        font-style: italic;
+        color: #ffcc00;
+        font-weight: bold;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 30px;
+        background: #ff6600;
+        color: white;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s ease;
+      }
+
+      .btn:hover {
+        background: #e65c00;
+        transform: scale(1.05);
+      }
+
+      /* Video Section */
+      .video-section {
+        padding: 40px 20px;
+        background: #111;
+      }
+
+      .video-card {
+        display: inline-block;
+        padding: 20px;
+        background: #1f1f1f;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(255, 102, 0, 0.4);
+        transition: transform 0.3s ease;
+      }
+
+      .video-card:hover {
+        transform: scale(1.05);
+      }
+
+      video {
+        border-radius: 10px;
+        outline: none;
+      }
+
+      .video-caption {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #ccc;
+      }
+
+      /* Anime Dance Circle Video Icon */
+      .top-right-video {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%; /* circle shape */
+        object-fit: cover; /* fill the circle nicely */
+        cursor: pointer;
+        z-index: 1000;
+        box-shadow: 0 0 8px rgba(255, 102, 0, 0.8);
+        border: 2px solid #ff6600;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Anime Dance Circle Video Icon -->
+    <a href="https://www.tiktok.com/@yourusername" target="_blank">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="top-right-video"
+        width="80"
+        height="80"
+      >
+        <source src="/video/animie dance.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>The Art of Victory — PUBG Mobile Graphics</h1>
+      <p>Your Gaming Glory, Captured in Design</p>
+      <p class="tagline">Drop In. Loot Up. Get Your Poster ❤</p>
+      <p>Click below to explore ↓</p>
+      <a href="more.html" class="btn">EXPLORE</a>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section"></section>
+  </body>
+</html>
