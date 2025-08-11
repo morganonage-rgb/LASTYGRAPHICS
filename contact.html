@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Info</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <style>
+      body.contact-page {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+        color: #fff;
+        margin: 0;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .contact-container {
+        max-width: 400px;
+        margin: 0 auto;
+        background: #222;
+        padding: 30px 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
+        text-align: left;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+        color: #ffcc00;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        text-align: center;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 15px;
+      }
+
+      .contact-icon {
+        font-size: 1.8rem;
+        color: #ffcc00;
+        min-width: 30px;
+        text-align: center;
+      }
+
+      .contact-text a {
+        color: #1f1f1f;
+        background: #ffcc00;
+        padding: 10px 15px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+        display: inline-block;
+        transition: background 0.3s ease;
+      }
+
+      .contact-text a:hover {
+        background: #ffaa00;
+        color: #1f1f1f;
+        box-shadow: 0 0 15px #ffaa00;
+      }
+
+      /* Back Button */
+      .back-btn {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 18px;
+        background: #ff4444;
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 0 8px rgba(255, 68, 68, 0.7);
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .back-btn:hover {
+        background: #cc0000;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body class="contact-page">
+    <div class="contact-container">
+      <h1>Contact Me</h1>
+
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+        <div class="contact-text">
+          <a href="https://wa.me/254700000000" target="_blank"
+            >+254 753767889</a
+          >
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <div class="contact-text">
+          <a href="mailto:youremail@example.com">youremail@example.com</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fab fa-tiktok"></i></div>
+        <div class="contact-text">
+          <a href="https://www.tiktok.com/@yourusername" target="_blank"
+            >@yourusername</a
+          >
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fab fa-facebook-f"></i></div>
+        <div class="contact-text">
+          <a href="https://www.facebook.com/yourpage" target="_blank"
+            >facebook.com/yourpage</a
+          >
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+        <div class="contact-text">
+          <a href="https://www.instagram.com/yourusername" target="_blank"
+            >@yourusername</a
+          >
+        </div>
+      </div>
+
+      <a href="more.html" class="back-btn">⬅ Back</a>
+    </div>
+  </body>
+</html>
